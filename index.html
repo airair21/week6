@@ -5,20 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
   </head>
+
   <body>
+
+    <div class="blob"></div>
+
+    <!--
+    <h1>
+      Kurzgesagt - In a Nutshell
+    </h1>
+    -->
+
     <div>
       <div id="tv">
-        Select a channel to get started
+        <h1>
+          Kurzgesagt - In a Nutshell
+        </h1>
+        Select a channel to get started <br>
+        <iframe id="ifr" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 
       <!-- Channel Buttons Go Here -->
       <div id="channels">
         <!-- Remove me! -->
-        <button>Channel Button</button>
+        <button onclick="loadNewBiology()">Biology</button>
+        <button onclick="loadNewWhatIf()">What If</button>
+        <button onclick="loadNewSpace()">Space</button>
       </div>
+
     </div>
     
+
     <script src="script.js"></script>
   </body>
+
+
+
+
 </html>

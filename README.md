@@ -9,7 +9,7 @@ For example, your channels could be "UFOs", "Eating Competitions" and "Vintage S
 ### Requirements
 - Each channel in your data object must contain a `title` property and a `videoIds` property that contains an array of video IDs.  Please include at least _three_ videos for each channel.
 - Use JavaScript to render a button for each channel.  The text inside the button should be the title of the channel.
-- Clicking a channel button should load a random video from the selected channel into an iframe embed inside the `#tv` element.  This element starts empty, you must create the iframe and add it to the page.
+- Clicking a channel button should load a random video from the selected channel into an _iframe_ embed inside the `#tv` element.  This element starts empty, you must create the iframe and add it to the page.
 - Please restyle the elements on this page.  I don't care what it looks like, just as long as it's not black / white / Helvetica in the end. Use the HTML structure that I've provided to start. Feel free to add additional elements if you need them for design or layout purposes.
 
 ### Tips
@@ -19,7 +19,7 @@ For example, your channels could be "UFOs", "Eating Competitions" and "Vintage S
   1. Create a button element (hint: use `document.createElement`)
   2. Set the text of the button
   3. Append the button to the page.
-  4. Add an event listener to the button to handle the click event
+  4. Add an _event listener_ to the button to handle the click event
 - The function that gets called on button click needs to:
   1. Know _which_ channel button was clicked
   2. Use that channel to pull a random video from the associated array of videoId (remember: Arrays are zero indexed and `Math.random()` gives you a number between `0` and `1`)

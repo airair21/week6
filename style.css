@@ -5,14 +5,30 @@
 body {
   font-size: 22px;
   line-height: 1.5;
-  font-family: Helvetica, sans-serif;
-  color: #111;
+  font-family: 'Rubik Spray Paint', cursive;
+  color: #3a2f63;
   margin: 0;
-  padding: 20px 40px;
+  padding-top: 3%;
+
+  background: radial-gradient(77.73% 77.73% at 98.52% 96.25%, #F98BDA 0%, rgba(128, 76, 239, 0.29) 50.52%, rgba(91, 216, 216, 0) 100%), radial-gradient(141.73% 105.23% at 50% -7.16%, #E1F8FF 0%, rgba(160, 198, 255, 0) 50.73%, rgba(162, 147, 255, 0) 100%), radial-gradient(112.27% 48.54% at 1.59% 50%, rgba(255, 130, 227, 0.5) 0%, rgba(255, 123, 234, 0.095) 53.91%, rgba(254, 216, 255, 0) 100%), linear-gradient(153.07deg, #8177F3 6.37%, rgba(255, 230, 166, 0) 83.82%); 
+  background-blend-mode: normal,normal,normal,normal,normal,normal; 
 
   display: flex;
   align-items: center;
   justify-content: center;
+
+  overflow: hidden;
+}
+
+h1 {
+  width: 100%;
+  font-family: 'Rubik Spray Paint', cursive;
+  color: #231949;
+  text-align: center;
+}
+p {
+  color: #111;
+  font-family: 'Rubik Spray Paint', cursive;
 }
 
 button {
@@ -25,11 +41,17 @@ button {
   padding: 18px 50px;
   font-size: 20px;
   font-weight: bold;
-  color: #FFF;
-  text-transform: uppercase;
-  background: linear-gradient(#0074e4, #5522fa);
+  color: #d5d0eb;
+  /*text-transform: uppercase; */
+  background: linear-gradient(#bccede, #a99bd6);
   border-radius: 50px;
   transition: transform .2s ease;
+  font-family: 'Rubik Spray Paint', cursive;
+  font-size: 33px;
+  transition: .2s;
+}
+button:hover {
+  color: #ffffff;
 }
 
 button:active {
@@ -39,14 +61,17 @@ button:active {
 iframe {
   width: 100%;
   height: auto;
-  min-height: 350px;
+  min-height: 450px;
 }
 
 #tv {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 #channels {
   display: flex;
-  gap: 10px;
+  gap: 50px;
 }
+
+
